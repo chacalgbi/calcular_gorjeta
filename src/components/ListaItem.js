@@ -15,7 +15,7 @@ const ItemCheck = styled.View`
     width:20px;
     height:20px;
     border-radius:10px;
-    border:5px solid #FFF;
+    border:5px solid #CCC;
 `;
 
 export default (props) => {

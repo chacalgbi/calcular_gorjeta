@@ -5,8 +5,9 @@ import {Text, View} from 'react-native';
 //import Gorjeta from './src/components/gorjeta'; //Não funcionou, precisa colocar no APP.js
 import Ex_Listas from './src/components/listas' 
 
+
 export default () => {
-  return ( 
+  return (
       <Ex_Listas />
     );
 };

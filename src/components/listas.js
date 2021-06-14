@@ -2,10 +2,11 @@ import React from 'react';
 import styled from 'styled-components/native';
 import lista from './lista';
 import ListaItem from './ListaItem';
+import AddItemArea from './additemarea';
 
 const Page = styled.SafeAreaView`
     flex: 1;
-    background-color: #add8e6;
+    background-color: #FFFFFF;
 `;
 
 const Listagem = styled.FlatList`
@@ -16,6 +17,7 @@ export default () => {
 
   return ( 
     <Page>
+        <AddItemArea />
         <Listagem 
             data={lista}
             renderItem={({item})=><ListaItem data={item} />}
