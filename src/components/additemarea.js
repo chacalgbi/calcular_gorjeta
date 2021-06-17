@@ -14,14 +14,16 @@ border-radius:15px;
 padding:10px;
 `;
 
-export default () => {
+export default (props) => {
 
     const [item, setItem] = useState('');
 
     const handleSubmit = ()=>{
-
-        alert(item);
+      if(item.trim() != ''){
+        item.trim();
+        props.onAdd(item);
         setItem('');
+      }
     }
 
   return ( 

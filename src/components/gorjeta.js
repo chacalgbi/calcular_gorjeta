@@ -1,6 +1,8 @@
+/* eslint-disable prettier/prettier */
 import React, {useState, useEffect} from 'react';
 import styled from 'styled-components/native';
 import {Text, Platform, Dimensions, Alert} from 'react-native';
+
 
 const Page = styled.SafeAreaView`
 margin-top: 30px;
@@ -69,12 +71,6 @@ align-items: center;
 justify-content: center;
 margin: 10px;
 `;
-
-import React from 'react';
-import TesteImg from './src/components/Imagem';
-import NativeBase from './src/components/exemplos_native_base';
-
-
 
 export default () => {
   const [conta, setConta] = useState('');
